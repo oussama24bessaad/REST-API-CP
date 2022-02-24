@@ -1,0 +1,32 @@
+{
+  "name": "checkpoint-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+   
+    "back": "nodemon server"
+    
+   
+  },
+  "author": "Oussama",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
